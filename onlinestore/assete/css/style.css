@@ -1,0 +1,48 @@
+/* CSS Document */
+body{
+	background: #fff;
+	font-family: sans-serif;
+}
+/* top-header */
+.top-menu{
+	border: 1px solid #cccc;
+	padding: 5px;
+	width: 100%;
+	overflow: hidden;
+}
+.top-menu p{
+	margin: 0;
+	padding: 5px;
+	font-size: 12px;
+	float: left;
+	border-left: 2px solid #cccc;
+}
+.top-menu .left{
+	float: right;
+
+
+}
+#header #top-logo{
+	font-size: 50px;
+	font-weight: bold;
+	float: left;
+	margin: 0;
+}
+#header input{
+	float: left;
+	margin: 25px 70px;
+	background: none;
+	border: none;
+	outline: none;
+	width: 500px;
+}
+#header .search-box{
+	width: 580px;
+	height: 50px;
+	border: 2px solid #fed700;
+	position: absolute;
+	margin: 25px 30px;
+	top: 31px;
+	left: 250px;
+	z-index: -1;
+}

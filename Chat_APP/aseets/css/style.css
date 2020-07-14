@@ -1,0 +1,108 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #353b48;
+}
+#menu {
+  background: #f5f6fa;
+  padding: 10px 15px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.my-pic {
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background: #00a8ff;
+  border-radius: 50%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/u-img/1.jpg");
+}
+.pro-pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  background: #00a8ff;
+  border-radius: 50%;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  background-image: url("../img/u-img/2.jpg");
+}
+#left-nav {
+  width: 200px;
+  background: #fff;
+  overflow: hidden;
+  height: 100%;
+  position: fixed;
+  transition: 0.5s;
+  display: none;
+  z-index: 1;
+}
+.fri-pro {
+  float: left;
+  padding: 0;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+ul li {
+  list-style: none;
+  transition: 0.5s linear;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+ul li:hover {
+  background: #ccc;
+}
+ul li a p {
+  padding: 18px;
+}
+/* Content */
+section#content {
+  background: #00a8ff;
+  height: 90vh;
+  position: relative;
+}
+.frm {
+  bottom: 5px;
+  left: 5px;
+  position: absolute;
+}
+#txt-mes {
+  width: 80vw;
+  appearance: none;
+  padding: 10px;
+  outline: #333;
+  border: 1px solid#ccc;
+  border-radius: 5px;
+  background-color: transparent;
+}
+#btn-send {
+  background: rgb(15, 126, 43);
+  padding: 10px 15px;
+  float: right;
+  width: 20wh;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s linear;
+  margin-left: 10px;
+}
+#btn-send:hover {
+  background: rgb(82, 192, 109);
+}
